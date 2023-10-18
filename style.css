@@ -146,8 +146,26 @@ button{
     justify-content: flex-end;
 }
 
+.container4{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #3882F6;
+    margin: 5rem auto;
+    padding: 2rem 0;
+    border-radius: 10px;
+    width: 1000px;
+}
 
-.footer{
+h2
+,p{
+    color: #F9FAF8;
+}
+
+.container4 button{
+    border: 2px solid #F9FAF8;
+}
+footer{
     background-color: #1f2937;
     display: flex;
     justify-content: center;
